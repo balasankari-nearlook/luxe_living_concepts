@@ -313,8 +313,8 @@ a {
     top: 0;
     left: 0;
     position: absolute;
-    background-color: #000;
-    opacity: 0.5;
+    /* background-color: #000;
+    opacity: 0.5; */
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
@@ -380,9 +380,9 @@ a {
     animation: background_animation 10s forwards;
 }
 
-.border-dark-gray {
+ .border-dark-gray {
     border-color: #474747 !important;
-}
+} 
 
 .navbar-toggler:focus {
     background-color: transparent;
